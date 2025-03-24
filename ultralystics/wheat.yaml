@@ -1,0 +1,9 @@
+train: C:\Python\PythonProject\yolo\ultralystics-main\data\train.txt
+val: C:\Python\PythonProject\yolo\ultralystics-main\data\val.txt
+test: C:\Python\PythonProject\yolo\ultralystics-main\data\test.txt
+
+nc: 2 # 填写类别数
+
+names: ['cat','dog']  # 要和voc_label.py中的类别数目顺序一模一样
+
+# train,val,test的路径根据自己情况而定
